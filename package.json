@@ -1,6 +1,6 @@
 {
   "name": "gulp-fez-fontmin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "压缩ttf并生成网页字体svg,eot,woff",
   "main": "index.js",
   "scripts": {},

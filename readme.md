@@ -1,30 +1,11 @@
 # gulp-fontmin
 
-[![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads][downloads-image]][npm-url]
-[![Dependencies][dep-image]][dep-url]
-[![Font support][font-image]][font-url]
-
-[downloads-image]: http://img.shields.io/npm/dm/gulp-fontmin.svg
-[npm-url]: https://npmjs.org/package/gulp-fontmin
-[npm-image]: http://img.shields.io/npm/v/gulp-fontmin.svg
-
-[travis-url]: https://travis-ci.org/ecomfe/gulp-fontmin
-[travis-image]: http://img.shields.io/travis/ecomfe/gulp-fontmin.svg
-
-[dep-url]: https://david-dm.org/ecomfe/gulp-fontmin
-[dep-image]: http://img.shields.io/david/ecomfe/gulp-fontmin.svg
-
-[font-image]:https://img.shields.io/badge/font-senty-blue.svg
-[font-url]: http://font.sentywed.com/
-
 > Minify TTF font to SVG, EOT, WOFF with [fontmin](https://github.com/ecomfe/fontmin)
 
 ## Install
 
 ```
-$ npm install --save-dev gulp-fontmin
+$ npm install --save-dev gulp-fez-fontmin
 ```
 
 ## Usage
@@ -88,12 +69,6 @@ gulp.task('fonts', function(cb) {
 
 });
 ```
-
-## Related
-
-- [gulp-fontmin-demo](https://github.com/junmer/gulp-fontmin-demo)
-- [fontmin](https://github.com/ecomfe/fontmin)
-- [fontmin-app](https://github.com/ecomfe/fontmin-app)
 
 ## License
 

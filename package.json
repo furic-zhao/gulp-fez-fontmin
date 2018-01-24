@@ -1,0 +1,33 @@
+{
+  "name": "gulp-fez-fontmin",
+  "version": "1.0.0",
+  "description": "压缩ttf并生成网页字体svg,eot,woff",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furic-zhao/gulp-fez-fontmin.git"
+  },
+  "keywords": [
+    "网页特殊字体",
+    "ttf",
+    "svg",
+    "eot",
+    "woff"
+  ],
+  "author": "furic-zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furic-zhao/gulp-fez-fontmin/issues"
+  },
+  "homepage": "https://github.com/furic-zhao/gulp-fez-fontmin#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "fancy-log": "^1.3.2",
+    "fontmin": "^0.9.6",
+    "object-assign": "^4.1.1",
+    "plugin-error": "^1.0.1",
+    "pretty-bytes": "^4.0.2",
+    "through2-concurrent": "^1.1.1"
+  }
+}

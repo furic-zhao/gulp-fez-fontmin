@@ -1,5 +1,5 @@
 /**
- * @基于gulp-fez-fontmin修改
+ * @基于gulp-fontmin修改
  */
 
 /* eslint-env node */

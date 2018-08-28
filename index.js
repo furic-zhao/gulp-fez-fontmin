@@ -12,7 +12,7 @@ var through = require('through2-concurrent');
 var assign = require('object-assign');
 var prettyBytes = require('pretty-bytes');
 var chalk = require('chalk');
-var Fontmin = require('fontmin');
+var Fontmin = require('fez-fontmin');
 
 /**
  * rename

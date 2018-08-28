@@ -1,6 +1,6 @@
 # gulp-fez-fontmin
 
-压缩ttf并生成网页字体svg,eot,woff
+使用gulp压缩TTF并生成woff2,woff,ttf,eot等格式的网页字体。
 
 ## Install
 
@@ -17,7 +17,7 @@ var fontmin = require('gulp-fez-fontmin');
 gulp.task('default', function () {
   return gulp.src('src/fonts/*.ttf')
     .pipe(fontmin({
-      text: '天地玄黄 宇宙洪荒',
+      text: '一朝暖日伴晴风，号呼浪涛涌峦峰，公论最美海蓝线，路入梅尔各不同。——忆加州《一号公路》',
     }))
     .pipe(gulp.dest('dist/fonts'));
 });
@@ -31,7 +31,4 @@ gulp.task('default', function () {
 Options:
 
 * `text`: A string corresponding glyphs of ttf
-* `onlyChinese`: {boolean} keep chinese only, exclude Latin, number and symbol. Default = false
-* `fontPath`: {string=} location of font file.
-* `hinting`: {boolean=} keep hint info, defaults true.
-* `quiet`: {boolean=} print how many fonts were effected, defaults false.
+* `chineseOnly`: {boolean} keep chinese only, exclude Latin, number and symbol. Default = false
